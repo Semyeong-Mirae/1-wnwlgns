@@ -10,7 +10,12 @@ interface Calculator {
         return a - b;
     }
 }
-
+public class SimpleCalculator implements Calculator {
+    @Override
+    public int add(int a, int b) {
+        return a + b;
+    }
+}
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
