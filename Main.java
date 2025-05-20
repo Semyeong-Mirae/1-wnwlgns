@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 interface Calculator {
     int add(int a, int b);
